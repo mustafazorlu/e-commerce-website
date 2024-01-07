@@ -1,0 +1,46 @@
+.campaign-single{
+    background-image: url(../../img/single-campaign.png);
+    padding:140px 15px;
+    color:#fff;
+    margin-bottom:30px;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.campaign-single .campaign-single-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+
+.campaign-single .campaign-single-wrapper h2{
+    font-size:25px;
+    
+}
+
+.campaign-single .campaign-single-wrapper strong{
+    font-size:55px;
+    font-weight: 600;
+    margin-top:20px 0;
+    
+}
+
+.campaign-single .campaign-single-wrapper span{
+    display: inline-block;
+    width: 75px;
+    height: 7.5px;
+    background-color: #fff;
+}
+
+.campaign-single .campaign-single-wrapper > a{
+    background-color: #fff;
+    margin-top:60px;
+    
+}
+
+.campaign-single .campaign-single-wrapper > a:hover{
+    background-color: #1367ef;
+    color:#fff;
+    border:1px solid #1367ef;
+}

@@ -1,0 +1,22 @@
+.brands{
+    margin:40px 0;
+}
+
+.brand-list{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid #dee0ea;
+    padding:30px 10px;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+
+.brand-list .brand-item{
+    opacity: 0.4;
+    transition: 0.3s ease all;
+}
+
+.brand-list .brand-item:hover{
+    opacity: 1;
+}
